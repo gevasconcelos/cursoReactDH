@@ -1,2 +1,3 @@
-# cursoDigitalHouse
-Repositório para armazenar as tarefas do curso de React da Digital House
+# Repository for studying react
+<br/>
+Here you will find everything that I developed while studying react.
