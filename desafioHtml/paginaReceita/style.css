@@ -8,15 +8,16 @@ body {
   background: #eaeaea;
   font-family: "Roboto", sans-serif;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 100vw;
-  height: 100vh;
 }
 
 .container {
   width: 50%;
   height: 90%;
   margin-top: 3%;
+  margin-bottom: 3%;
   border-radius: 2%;
   background: #ffffff;
 }
@@ -27,14 +28,74 @@ header {
   margin-top: 5%;
 }
 
-.title-header{
-    font-size: 28px;
-    padding-bottom: 2%;
+.title-header {
+  font-size: 28px;
+  padding-bottom: 2%;
+  color: #1b1b1b;
 }
 
-.descricao-img{
-    text-align: right;
-    font-size: 12px;
-    margin-top: 3px;
-    margin-right: 11%;
+.descricao-img {
+  text-align: right;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-right: 11%;
+  color: #8f8f8f;
+}
+
+main {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.section-ingredientes {
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #1b1b1b;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 5%;
+  gap: 15px;
+  color: #39393a;
+}
+
+.section-modoPreparo {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+
+.aside-paragraph {
+  flex-direction: column;
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #39393a;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-paragraph{
+    padding-bottom: 10%;
+    color: #39393a;
 }
